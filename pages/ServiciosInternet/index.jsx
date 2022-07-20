@@ -4,25 +4,41 @@ import InternetCard from "../../components/InternetCard";
 import Navbar2 from "../../components/Navbar2";
 import style from "../../styles/InternetServices.module.css";
 const ServiciosInternet = () => {
-  const [windowDimenion, detectHW] = useState({
-    winWidth: window.innerWidth,
-    winHeight: window.innerHeight,
-  });
+  const size = useWindowSize();
 
-  const detectSize = () => {
-    detectHW({
-      winWidth: window.innerWidth,
-      winHeight: window.innerHeight,
+  function useWindowSize() {
+    // Initialize state with undefined width/height so server and client renders match
+    // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
+    const [windowSize, setWindowSize] = useState({
+      width: undefined,
+      height: undefined,
     });
-  };
+  
+    useEffect(() => {
+      // only execute all the code below in client side
+      if (typeof window !== 'undefined') {
+        // Handler to call on window resize
+        function handleResize() {
+          // Set window width/height to state
+          setWindowSize({
+            width: window.innerWidth,
+            height: window.innerHeight,
+          });
+        }
+      
+        // Add event listener
+        window.addEventListener("resize", handleResize);
+       
+        // Call handler right away so state gets updated with initial window size
+        handleResize();
+      
+        // Remove event listener on cleanup
+        return () => window.removeEventListener("resize", handleResize);
+      }
+    }, []); // Empty array ensures that effect is only run on mount
+    return windowSize;
+  }
 
-  useEffect(() => {
-    window.addEventListener("resize", detectSize);
-
-    return () => {
-      window.removeEventListener("resize", detectSize);
-    };
-  }, [windowDimenion]);
 
   return (
     <div className={style.container1}>
@@ -31,7 +47,7 @@ const ServiciosInternet = () => {
         <h3 className={`${style.tituloh3} text-4xl`}>Servicios de Internet</h3>
         <br />
 
-        {windowDimenion.winWidth < 600 ? (
+        {size.width < 900 ? (
           <>
             <Acordion
               titulo="Alta velocidad"
