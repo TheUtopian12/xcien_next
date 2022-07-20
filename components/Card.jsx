@@ -1,6 +1,9 @@
 import React from 'react'
 import Link from "next/link";
 import style from '../styles/Card.module.css'
+import {BiArrowToBottom} from 'react-icons/bi'
+import {FiArrowDownCircle} from 'react-icons/fi'
+import 'animate.css';
 const Card = ({titulo, descripcion, imagen, url}) => {
   
   return (
@@ -9,6 +12,9 @@ const Card = ({titulo, descripcion, imagen, url}) => {
       <div className={style['flip-card-front']}>
         <img src={imagen} alt="Avatar" style={{width:"300px", height:"150px", borderRadius:"25px 25px 0 0"}}/>
         <h2>{titulo}</h2>
+        <div className='flex items-center justify-center animate__animated animate__heartBeat animate__infinite	infinite'><FiArrowDownCircle /></div>
+        
+        
       </div>
       <div className={style['flip-card-back']}>
         <br />
@@ -17,6 +23,8 @@ const Card = ({titulo, descripcion, imagen, url}) => {
         <p>{descripcion}</p>
         <br />
         <Link href={'/ServiciosInternet'} ><a className='text-blue-700'>Más Informacion</a></Link>
+        <br />
+      
       </div>
     </div>
   </div>

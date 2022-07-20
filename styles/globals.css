@@ -27,8 +27,8 @@ html{
   
 #slider {
   position: relative;
-  width: 70%;
-  height: 35vw;
+  width: 55%;
+  height: 25vw;
   margin: 80px auto;
   font-family: 'Helvetica Neue', sans-serif;
   perspective: 1400px;
@@ -67,21 +67,21 @@ input[type=radio] {
 #slide1 {
   background-image: url('../public/img/SDWAN-JUL-XCIEN.png');
   
-  background-size: 1210px 620px;
+  background-size: 950px 436px;
 }
 
 #slide2 {
   background-image: url( '../public/img/SitioWeb_PromoJUL_xcien.png');
-  background-size: 1210px 620px;
+  background-size: 950px 436px;
 }
 
 #slide3 {
   background-image: url('../public/img/SDWAN-JUL-XCIEN.png');
-  background-size: 1210px 620px;}
+  background-size: 950px 436px;}
 
 #slide4 {
   background-image: url( '../public/img/SitioWeb_PromoJUL_xcien.png');
-background-size: 1210px 620px;}
+  background-size: 950px 436px;}
 
 
 
