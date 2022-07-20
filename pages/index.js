@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Acordion from "../components/Acordion";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Servicios from "../components/Servicios";
