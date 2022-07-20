@@ -99,7 +99,7 @@ const Navbar = () => {
                   src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?cs=srgb&dl=pexels-suliman-sallehi-1704488.jpg&fm=jpg"
                   alt=""
                 />
-                <div className="space-y-1 font-medium" style={{color:`${textColor}`}}  >
+                <div className="space-y-1 font-medium hover:text-gray-500"   >
                   <div>Jese Leos</div>
                 </div>
               </div></Link>
