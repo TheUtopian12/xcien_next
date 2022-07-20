@@ -31,7 +31,7 @@ const ServiciosInternet = () => {
         <h3 className={`${style.tituloh3} text-4xl`}>Servicios de Internet</h3>
         <br />
 
-        {windowDimenion.winWidth <= 900 ? (
+        {windowDimenion.winWidth < 600 ? (
           <>
             <Acordion
               titulo="Alta velocidad"
