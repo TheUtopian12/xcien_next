@@ -8,7 +8,7 @@ export default function InternetCard({titulo, url}) {
       
     </div>
     <div className={style.description}>
-      <h1>Learning to Code</h1>
+      
       <h2>{titulo}</h2>
       <p> s! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
       <p className={style['read-more']}>

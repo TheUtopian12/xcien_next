@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import logoB from '../public/logo-xcien.png'
+import logoB from '../public/xcien_logo_N.png'
 import logoW from '../public/xcien_logo.png'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
           <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl">
-            <Image src={logo} width="100" height="70"/>
+            <Image src={logo} width="100" height="55"/>
           </h1>
         </Link>
 
@@ -41,6 +41,22 @@ const Navbar = () => {
           </li>
           <li className="p-4">
             <Link href="/contacto">Contacto</Link>
+          </li>
+          <li className="p-3.5" style={{cursor:'pointer'}}>
+            <Link href="/aisjd">
+              <div class="flex items-center space-x-4 space-y-[-2]">
+                <Image
+                  width={30}
+                  height={30}
+                  class="w-10 h-10 rounded-full"
+                  src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?cs=srgb&dl=pexels-suliman-sallehi-1704488.jpg&fm=jpg"
+                  alt=""
+                />
+                <div class="space-y-1 font-medium" style={{color:`${textColor}`}}  >
+                  <div>Jese Leos</div>
+                </div>
+              </div>
+            </Link>
           </li>
         </ul>
 
@@ -74,6 +90,21 @@ const Navbar = () => {
             <li className="p-4 text-4xl hover:text-gray-500">
               <Link href="/contacto">Contacto</Link>
             </li>
+            <li className="p-4 text-4xl hover:text-gray-500">
+              <Link href="/#"><div class="flex items-center space-x-4 space-y-[-2]">
+                <Image
+                  width={30}
+                  height={30}
+                  class="w-10 h-10 rounded-full"
+                  src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?cs=srgb&dl=pexels-suliman-sallehi-1704488.jpg&fm=jpg"
+                  alt=""
+                />
+                <div class="space-y-1 font-medium" style={{color:`${textColor}`}}  >
+                  <div>Jese Leos</div>
+                </div>
+              </div></Link>
+            </li>
+            
           </ul>
         </div>
       </div>

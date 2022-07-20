@@ -28,6 +28,7 @@ const Servicios = () => {
           descripcion={
             "Mejoramos la seguridad de tu empresa con una conexion interna"
           }
+          url={"/VPN"}
         />
       </div>
       <div id={style.content3}>

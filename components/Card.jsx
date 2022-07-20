@@ -2,7 +2,7 @@ import React from 'react'
 import Link from "next/link";
 import style from '../styles/Card.module.css'
 import {BiArrowToBottom} from 'react-icons/bi'
-import {FiArrowDownCircle} from 'react-icons/fi'
+import {FiArrowDownCircle} from 'react-icons/fi' 
 import 'animate.css';
 const Card = ({titulo, descripcion, imagen, url}) => {
   
@@ -22,7 +22,9 @@ const Card = ({titulo, descripcion, imagen, url}) => {
         <br />
         <p>{descripcion}</p>
         <br />
-        <Link href={'/ServiciosInternet'} ><a className='text-blue-700'>Más Informacion</a></Link>
+        <Link  href={{
+            pathname: url
+          }} ><a className='text-blue-700'>Más Informacion</a></Link>
         <br />
       
       </div>
