@@ -103,15 +103,15 @@ const Navbar = ({ colores }) => {
               <Link href="/contacto">Contacto</Link>
             </li>
             <li className="p-4 text-4xl hover:text-gray-500">
-              <Link href="/#"><div class="flex items-center space-x-4 space-y-[-2]">
+              <Link href="/#"><div className="flex items-center space-x-4 space-y-[-2]">
                 <Image
                   width={30}
                   height={30}
-                  class="w-10 h-10 rounded-full"
+                  className="w-10 h-10 rounded-full"
                   src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?cs=srgb&dl=pexels-suliman-sallehi-1704488.jpg&fm=jpg"
                   alt=""
                 />
-                <div class="space-y-1 font-medium" style={{color:`${textColor}`}}  >
+                <div className="space-y-1 font-medium" style={{color:`${textColor}`}}  >
                   <div>Jese Leos</div>
                 </div>
               </div></Link>
