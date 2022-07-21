@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Acordion from "../components/Acordion";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Opiniones from "../components/Opiniones";
 import Servicios from "../components/Servicios";
 import Slider from "../components/Slider";
 import { Slider2 } from "../components/Slider2";
@@ -23,6 +23,7 @@ export default function Home() {
       />
       <Slider2/>
       <Servicios />
+      <Opiniones/>
     </div>
   );
 }

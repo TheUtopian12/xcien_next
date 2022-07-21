@@ -11,22 +11,22 @@ export const Slider2 = () => {
         <label
           htmlFor="s1"
           id="slide1"
-          style={{ borderRadius: "20px" }}
+          style={{ borderRadius: "25px" }}
         ></label>
         <label
           htmlFor="s2"
           id="slide2"
-          style={{ borderRadius: "20px" }}
+          style={{ borderRadius: "25px" }}
         ></label>
         <label
           htmlFor="s3"
           id="slide3"
-          style={{ borderRadius: "20px" }}
+          style={{ borderRadius: "25px" }}
         ></label>
         <label
           htmlFor="s4"
           id="slide4"
-          style={{ borderRadius: "20px" }}
+          style={{ borderRadius: "25px" }}
         ></label>
       </div>
     </>
