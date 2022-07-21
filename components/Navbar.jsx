@@ -113,7 +113,7 @@ const Navbar = ({ colores }) => {
                   alt=""
                 />
                 <div className="space-y-1 font-medium" style={{color:`${textColor}`}}  >
-                  <div>Jese Leos</div>
+                  <div>Edwin </div>
                 </div>
               </div></Link>
             </li>
