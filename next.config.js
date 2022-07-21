@@ -8,7 +8,7 @@ const nextConfig = {
 
 module.exports = {
 images:{
-  domains:['images.unsplash.com','www.google.com','lh3.googleusercontent.com','images.pexels.com']
+  domains:['images.unsplash.com','www.google.com','lh3.googleusercontent.com','images.pexels.com','www.netelip.com','www.profesionalreview.com']
 }
   
 }

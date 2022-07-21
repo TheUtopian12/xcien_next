@@ -4,7 +4,6 @@ import style from "../../styles/vpn.module.css";
 import vpnLogo from "../../public/img/vpn.png";
 import Navbar2 from "../../components/Navbar2";
 
-import { BsArrowRightCircle } from "react-icons/bs";
 const index = () => {
   return (
     <div className={style.container1}>
@@ -43,7 +42,7 @@ const index = () => {
 
         <button
           type="button"
-          className="text-black hover:text-white relative left-1/3 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-white dark:hover:bg-green-700 dark:focus:ring-green-800"
+          className="text-black hover:text-white relative left-1/3 bg-green-400 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-white dark:hover:bg-green-700 dark:focus:ring-green-800"
         >
           Más Información
           <svg

@@ -42,6 +42,8 @@ const Servicios = () => {
               descripcion={
                 "Nos encargamos de tus servicios con personal especializado "
               }
+              url={'/Administrados'}
+
             />
           </div>
           <div className="p-4 rounded-md flex items-center justify-center">
@@ -53,6 +55,7 @@ const Servicios = () => {
               descripcion={
                 "Logra una comunicacion efectiva sobre internet en tu negocio"
               }
+              url={'/TelefoniaIP'}
             />
           </div>
           
