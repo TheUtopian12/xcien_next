@@ -55,9 +55,9 @@ Reducción del importe de la factura telefónica
           <br />
         </>
       </div>
-      <div className="flex-row items-center justify-center bg-white m-36">
+      <div className="flex-row items-center justify-center bg-white m-11 pt-10">
         <br />
-        <Image src={'https://www.netelip.com/blog/wp-content/uploads/2021/12/telefonia-ip-empresa-netelip-1-850x560.jpg'} width="800" height="400" style={{borderRadius:'0px 100px 0px 100px;'}}/>
+        <Image src={'https://www.netelip.com/blog/wp-content/uploads/2021/12/telefonia-ip-empresa-netelip-1-850x560.jpg'} width="800px" height="400px" style={{borderRadius:'100px 0px'}}/>
 
         <button
           type="button"

@@ -5,7 +5,6 @@ import Opiniones from "../components/Opiniones";
 import Servicios from "../components/Servicios";
 import Slider from "../components/Slider";
 import { Slider2 } from "../components/Slider2";
-import { SliderData } from "../components/SliderData";
 
 export default function Home() {
   return (

@@ -36,8 +36,8 @@ export default function Opiniones() {
             onClick={() => handleOpen(4)}
             style={{
               width: "500px",
-              boxShadow: "10px 10px 5px #009B3E",
-              borderRadius: "20px",
+              boxShadow: "1px 1px 5px #009B3E",
+              borderRadius: "5px",
             }}
             icon={<BsFillArrowDownCircleFill />}
           >
@@ -74,8 +74,8 @@ export default function Opiniones() {
             onClick={() => handleOpen(1)}
             style={{
               width: "500px",
-              boxShadow: "10px 10px 5px #009B3E",
-              borderRadius: "20px",
+              boxShadow: "1px 1px 5px #009B3E",
+              borderRadius: "5px",
             }}
             icon={<BsFillArrowDownCircleFill />}
           >
@@ -111,8 +111,8 @@ export default function Opiniones() {
             onClick={() => handleOpen(3)}
             style={{
               width: "500px",
-              boxShadow: "10px 10px 5px #009B3E",
-              borderRadius: "20px",
+              boxShadow: "1px 1px 5px #009B3E",
+              borderRadius: "5px",
             }}
             icon={<BsFillArrowDownCircleFill />}
           >
@@ -148,8 +148,8 @@ export default function Opiniones() {
             onClick={() => handleOpen(2)}
             style={{
               width: "500px",
-              boxShadow: "10px 10px 5px #009B3E",
-              borderRadius: "20px",
+              boxShadow: "1px 1px 5px #009B3E",
+              borderRadius: "5px",
             }}
             icon={<BsFillArrowDownCircleFill />}
           >
