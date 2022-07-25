@@ -2,7 +2,7 @@ import React from 'react'
 import Link from "next/link";
 import style from '../styles/Card.module.css'
 import {BiArrowToBottom} from 'react-icons/bi'
-import {FiArrowDownCircle} from 'react-icons/fi' 
+import { FiChevronDown } from "react-icons/fi";
 import 'animate.css';
 const Card = ({titulo, descripcion, imagen, url}) => {
   
@@ -12,7 +12,7 @@ const Card = ({titulo, descripcion, imagen, url}) => {
       <div className={style['flip-card-front']}>
         <img src={imagen} alt="Avatar" style={{width:"300px", height:"150px", borderRadius:"25px 25px 0 0"}}/>
         <h2>{titulo}</h2>
-        <div className='flex items-center justify-center animate__animated animate__heartBeat animate__infinite	infinite'><FiArrowDownCircle /></div>
+        <div className='flex items-center justify-center animate__animated animate__heartBeat animate__infinite	infinite'><FiChevronDown /></div>
         
         
       </div>

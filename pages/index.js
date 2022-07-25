@@ -15,11 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <Hero
-        heading="Ya conoces nuestros servicios?"
-        message="Te ofrecemos servicios especializados de internet
-                  dedicado empresarial y/o corporativo"
-      />
+      <Hero />
       <Slider2/>
       <Servicios />
       <Opiniones/>

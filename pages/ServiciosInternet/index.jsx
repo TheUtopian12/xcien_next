@@ -13,10 +13,10 @@ const ServiciosInternet = () => {
       width: undefined,
       height: undefined,
     });
-  
+
     useEffect(() => {
       // only execute all the code below in client side
-      if (typeof window !== 'undefined') {
+      if (typeof window !== "undefined") {
         // Handler to call on window resize
         function handleResize() {
           // Set window width/height to state
@@ -25,13 +25,13 @@ const ServiciosInternet = () => {
             height: window.innerHeight,
           });
         }
-      
+
         // Add event listener
         window.addEventListener("resize", handleResize);
-       
+
         // Call handler right away so state gets updated with initial window size
         handleResize();
-      
+
         // Remove event listener on cleanup
         return () => window.removeEventListener("resize", handleResize);
       }
@@ -39,12 +39,19 @@ const ServiciosInternet = () => {
     return windowSize;
   }
 
-
   return (
     <div className={style.container1}>
       <Navbar2 />
-      <div id={style.contentText}>
-        <h3 className={`${style.tituloh3} text-4xl`}>Servicios de Internet</h3>
+      <div
+        id={style.contentText}
+        className="bg-fixed bg-center bg-cover custom-img h-full "
+      >
+        <h3 className={`${style.tituloh3} text-5xl mt-14  `}>Internet</h3>
+        <br />
+        <h4 className="text-white justify-center items-center text-center text-2xl">
+          Garantiza estabilidad, seguridad y velocidad en la transferencia de
+          datos
+        </h4>
         <br />
 
         {size.width < 900 ? (
@@ -81,38 +88,40 @@ const ServiciosInternet = () => {
           </>
         ) : (
           <>
-            <p style={{ color: "white", fontSize: "20px" }}>
-              <strong className="hover:text-green-600">Alta velocidad</strong>
+            <p style={{ color: "white", fontSize: "20px" }} className='bg-green-900/50 z-[2] rounded-3xl'>
+              <strong className="hover:text-green-600">Estabilidad</strong>
               <br />
-              Velocidad garantizada con una conexión de internet <br /> sin
-              sobresuscripción, planes disponibles hasta 1 GB.
+              Garantiza estabilidad en la transferencia de datos, servicio de
+              Internet hasta 1 Gb.
             </p>
             <br />
-            <p style={{ color: "white", fontSize: "20px" }}>
-              <strong className="hover:text-green-600">
-                Seguridad y productividad
-              </strong>
-              <br />
-              Mayor rendimiento del equipo de trabajo con un <br /> internet
-              seguro (internet+firewall).
-            </p>
-            <br />
-            <p style={{ color: "white", fontSize: "20px" }}>
-              <strong className="hover:text-green-600">Flexibilidad</strong>
-              <br />
-              Planes personalizados de acuerdo a tus necesidades,
-              <br /> nos adaptamos a tu crecimiento.
-            </p>
-            <br />
-            <p style={{ color: "white", fontSize: "20px" }}>
+            <p style={{ color: "white", fontSize: "20px" }}className='bg-green-900/50 z-[2] rounded-3xl'>
               <strong className="hover:text-green-600">
                 Alta disponibilidad
               </strong>
               <br />
-              Aseguramos la continuidad de tu negocio.
+              Internet sin caídas, aseguramos la continuidad de tú negocio.
             </p>
             <br />
-            <p style={{ color: "white", fontSize: "20px" }}>
+            <p style={{ color: "white", fontSize: "20px" }}className='bg-green-900/50 z-[2] rounded-3xl'>
+              <strong className="hover:text-green-600">
+                Seguridad y Productividad
+              </strong>
+              <br />
+              Mayor rendimiento del equipo de trabajo con un internet seguro
+              (internet+firewall).
+            </p>
+            <br />
+            <p style={{ color: "white", fontSize: "20px" }}className='bg-green-900/50 z-[2] rounded-3xl'>
+              <strong className="hover:text-green-600">
+                Soluciones integrales - End to end
+              </strong>
+              <br />
+              Simplifica tu administración con soluciones adicionales (wifi,
+              firewall, orquestador de redes, Gsuite, telefonía, entre otros).
+            </p>
+            <br />
+            <p style={{ color: "white", fontSize: "20px" }}className='bg-green-900/50 z-[2] rounded-3xl'>
               <strong className="hover:text-green-600">End to end</strong>
               <br />
               Despreocúpate, nos encargamos de todo. <br />
@@ -121,7 +130,14 @@ const ServiciosInternet = () => {
               otros).
             </p>
             <br />
-            <p style={{ color: "white", fontSize: "20px" }}>
+            <p style={{ color: "white", fontSize: "20px" }}className='bg-green-900/50 z-[2] rounded-3xl'>
+              <strong className="hover:text-green-600">Flexibilidad</strong>
+              <br />
+              Planes personalizados de acuerdo a tus necesidades, nos adaptamos
+              a tu crecimiento.
+            </p>
+            <br />
+            <p style={{ color: "white", fontSize: "20px" }}className='bg-green-900/50 z-[2] rounded-3xl'>
               <strong className="hover:text-green-600">Soporte técnico</strong>
               <br />
               Asistencia personalizada, solucionamos tu problema al momento.
