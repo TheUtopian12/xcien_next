@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import Drawer from "../../components/Drawer";
 import Navbar from "../../components/Navbar2";
 import foto from "../../public/img/production.jpeg";
-const index = () => {
-  const [isOpen, setIsOpen] = React.useState(false);
+
+
+const Especializado = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
@@ -120,4 +122,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Especializado;
