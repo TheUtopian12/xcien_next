@@ -22,7 +22,7 @@ const Nosotros = () => {
               <AiOutlineInstagram /> <span className="ml-4">@xcien</span>
             </p>
             <p className="flex mb-3 text-2xl text-gray-700 dark:text-gray-400">
-              <AiOutlineLinkedin />{" "}
+              <AiOutlineLinkedin />
               <span className="ml-4">linkedin.com/company/xcien</span>
             </p>
           </div>
