@@ -35,26 +35,35 @@ const index = () => {
             <br />
             Antivirus y Antiphishing
           </p>
+          <br />
           <p className="text-white text-xl">
             <br />
             Control de aplicaciones (en tus manos)
           </p>
           <br />
-          <p className="text-white text-xl">Tolerancia a fallos</p>
+          <p className="text-white text-xl">
+            <br />
+            Tolerancia a fallos
+          </p>
           <br />
-          <p className="text-white text-xl">Prevención de intrusiones</p>
+          <p className="text-white text-xl">
+            <br />
+            Prevención de intrusiones
+          </p>
           <br />
         </>
       </div>
-      <div className="flex-row items-center justify-center bg-white m-10 pt-12">
+      <div className="flex-row items-center justify-center bg-white m-36">
         <br />
         <Image
           src={
             "https://www.profesionalreview.com/wp-content/uploads/2017/09/IoT.jpg"
           }
-          width="800px" height="400px" style={{borderRadius:'100px 0px'}}
+          width="800"
+          height="400"
+          style={{ borderRadius: "0px 100px 0px 100px;" }}
         />
-        <br />
+
         <button
           type="button"
           className="text-black hover:text-white relative left-1/3 bg-green-400 hover:bg-green-500 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-white dark:hover:bg-green-700 dark:focus:ring-green-800"

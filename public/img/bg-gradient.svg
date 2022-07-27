@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 5.925 635.226 221.726" width="635.226" height="221.726" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="linear-gradient-3" x1="0.01" y1="0.987" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.468" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gradient-1" x1="0.01" y1="0.987" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.468" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gradient-2" x1="0.01" y1="0.987" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.468" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gradient-3" x1="0.01" y1="0.987" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.468" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gradient-4" x1="0.01" y1="0.987" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.468" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gradient-5" x1="0.01" y1="0.987" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.468" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gradient-6" x1="0.01" y1="0.987" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.468" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gradient-7" x1="0.01" y1="0.987" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.468" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gradient-8" x1="0.01" y1="0.987" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.468" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gradient-9" x1="0.01" y1="0.987" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.468" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gradient-10" x1="0.01" y1="0.987" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.468" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gradient-11" x1="0.01" y1="0.987" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.468" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gradient-12" x1="0.01" y1="0.987" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.468" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gradient-13" x1="0.01" y1="0.987" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.468" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gradient-14" x1="0.01" y1="0.987" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.468" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect y="31.752" width="635.423" height="151.513" style="fill-rule: nonzero; paint-order: fill markers; fill: rgb(0, 155, 62);"/>
+  <g id="Cloud" transform="matrix(1, 0, 0, 1, 150.440308, -112.188698)">
+    <path id="Path_1" data-name="Path 1" d="M390.5,251.432c-2.039,1.19,147.091,0,147.091,0s-28.916-6.3-44.941-8.586c0,0-8.216-12.591-38.264-12.591s-36.413,14.309-36.413,14.309A51.5,51.5,0,0,0,390.5,251.432Z" transform="translate(586.61 236.967)" fill="#c9656c" opacity="0.15"/>
+    <path id="Path_3" data-name="Path 3" d="M341.85,96.738H611.84s-3.675-10.482-37.653-13.976c0,0-9.182-16.307-46.835-19.8s-56.936,16.889-56.936,16.889-16.529-17.292-51.425-.2C418.991,79.646,371.236,78.1,341.85,96.738Z" transform="translate(517.897 0)" fill="#c9656c" opacity="0.15"/>
+    <path id="Path_5" data-name="Path 5" d="M300.409,171.9H486.3s-2.529-5.69-25.924-7.589c0,0-6.322-8.851-32.246-10.748s-39.2,9.167-39.2,9.167-11.38-9.387-35.407-.109C353.521,162.625,320.643,161.785,300.409,171.9Z" transform="translate(459.338 128.292)" fill="#c9656c" opacity="0.15"/>
+    <path id="Path_2" data-name="Path 2" d="M47.77,265.728H312.263s-3.6-8.1-36.884-10.8c0,0-9-12.594-45.882-15.292s-55.778,13.043-55.778,13.043-16.194-13.354-50.38-.154C123.34,252.529,76.558,251.334,47.77,265.728Z" transform="translate(-662.656 222.789)" fill="#b11c27" opacity="0.15"/>
+    <path id="Path_4" data-name="Path 4" d="M24.173,169.311h380.74s1.32-10.757-15.837-13.59c0,0,1.979-15.287-24.415-19.251,0,0,3.96-29.442-38.932-27.178S283.5,145.53,283.5,145.53s-27.265-22.762-50.986-.263c0,0-24.348-18.537-51.191-3,0,0-49.318-31.867-84.9,1.607,0,0-30.588-7.5-41.826,13.392C54.594,157.265,44.315,152.431,24.173,169.311Z" transform="translate(-696 38.862)" fill="#b11c27" opacity="0.15"/>
+  </g>
+  <g id="g-1" transform="matrix(1, 0, 0, 1, -58.267391, -130.231812)">
+    <path id="path-1" data-name="Path 1" d="M390.5,251.432c-2.039,1.19,147.091,0,147.091,0s-28.916-6.3-44.941-8.586c0,0-8.216-12.591-38.264-12.591s-36.413,14.309-36.413,14.309A51.5,51.5,0,0,0,390.5,251.432Z" transform="translate(586.61 236.967)" fill="#c9656c" opacity="0.15"/>
+    <path id="path-2" data-name="Path 3" d="M341.85,96.738H611.84s-3.675-10.482-37.653-13.976c0,0-9.182-16.307-46.835-19.8s-56.936,16.889-56.936,16.889-16.529-17.292-51.425-.2C418.991,79.646,371.236,78.1,341.85,96.738Z" transform="translate(517.897 0)" fill="#c9656c" opacity="0.15"/>
+    <path id="path-3" data-name="Path 5" d="M300.409,171.9H486.3s-2.529-5.69-25.924-7.589c0,0-6.322-8.851-32.246-10.748s-39.2,9.167-39.2,9.167-11.38-9.387-35.407-.109C353.521,162.625,320.643,161.785,300.409,171.9Z" transform="translate(459.338 128.292)" fill="#c9656c" opacity="0.15"/>
+    <path id="path-4" data-name="Path 2" d="M47.77,265.728H312.263s-3.6-8.1-36.884-10.8c0,0-9-12.594-45.882-15.292s-55.778,13.043-55.778,13.043-16.194-13.354-50.38-.154C123.34,252.529,76.558,251.334,47.77,265.728Z" transform="translate(-662.656 222.789)" fill="#b11c27" opacity="0.15"/>
+    <path id="path-5" data-name="Path 4" d="M24.173,169.311h380.74s1.32-10.757-15.837-13.59c0,0,1.979-15.287-24.415-19.251,0,0,3.96-29.442-38.932-27.178S283.5,145.53,283.5,145.53s-27.265-22.762-50.986-.263c0,0-24.348-18.537-51.191-3,0,0-49.318-31.867-84.9,1.607,0,0-30.588-7.5-41.826,13.392C54.594,157.265,44.315,152.431,24.173,169.311Z" transform="translate(-696 38.862)" fill="#b11c27" opacity="0.15"/>
+  </g>
+  <path id="Path_408" data-name="Path 408" d="M 599.995 59.286 C 600.274 59.619 589.765 71.144 589.216 71.719 C 588.668 72.294 587.997 72.49 587.717 72.156 C 587.438 71.822 587.656 71.086 588.204 70.512 C 588.752 69.937 599.715 58.952 599.995 59.286 Z" fill="url(#linear-gradient-3)" style=""/>
+  <path id="path-6" data-name="Path 408" d="M 476.885 61.441 C 477.164 61.774 466.655 73.299 466.106 73.874 C 465.558 74.449 464.887 74.645 464.607 74.311 C 464.328 73.977 464.546 73.241 465.094 72.667 C 465.642 72.092 476.605 61.107 476.885 61.441 Z" fill="url(#gradient-1)" style=""/>
+  <path id="path-7" data-name="Path 408" d="M 599.995 59.286 C 600.274 59.619 589.765 71.144 589.216 71.719 C 588.668 72.294 587.997 72.49 587.717 72.156 C 587.438 71.822 587.656 71.086 588.204 70.512 C 588.752 69.937 599.715 58.952 599.995 59.286 Z" fill="url(#gradient-2)" style="" transform="matrix(1, 0, 0, 1, -138.19075, 46.858429)"/>
+  <path id="path-8" data-name="Path 408" d="M 64.856 56.593 C 65.135 56.926 54.626 68.451 54.077 69.026 C 53.529 69.601 52.858 69.797 52.578 69.463 C 52.299 69.129 52.517 68.393 53.065 67.819 C 53.613 67.244 64.576 56.259 64.856 56.593 Z" fill="url(#gradient-3)" style=""/>
+  <path id="path-9" data-name="Path 408" d="M 250.673 61.979 C 250.952 62.312 240.443 73.837 239.894 74.412 C 239.346 74.987 238.675 75.183 238.395 74.849 C 238.116 74.515 238.334 73.779 238.882 73.205 C 239.43 72.63 250.393 61.645 250.673 61.979 Z" fill="url(#gradient-4)" style=""/>
+  <path id="path-10" data-name="Path 408" d="M 145.107 70.058 C 145.386 70.391 134.877 81.916 134.328 82.491 C 133.78 83.066 133.109 83.262 132.829 82.928 C 132.55 82.594 132.768 81.858 133.316 81.284 C 133.864 80.709 144.827 69.724 145.107 70.058 Z" fill="url(#gradient-5)" style=""/>
+  <path id="path-11" data-name="Path 408" d="M 55.161 144.924 C 55.44 145.257 44.931 156.782 44.382 157.357 C 43.834 157.932 43.163 158.128 42.883 157.794 C 42.604 157.46 42.822 156.724 43.37 156.15 C 43.918 155.575 54.881 144.59 55.161 144.924 Z" fill="url(#gradient-6)" style=""/>
+  <path id="path-12" data-name="Path 408" d="M 112.399 142.231 C 112.678 142.564 102.169 154.089 101.62 154.664 C 101.072 155.239 100.401 155.435 100.121 155.101 C 99.842 154.767 100.06 154.031 100.608 153.457 C 101.156 152.882 112.119 141.897 112.399 142.231 Z" fill="url(#gradient-7)" style=""/>
+  <path id="path-13" data-name="Path 408" d="M 183.348 141.692 C 183.627 142.025 173.118 153.55 172.569 154.125 C 172.021 154.7 171.35 154.896 171.07 154.562 C 170.791 154.228 171.009 153.492 171.557 152.918 C 172.105 152.343 183.068 141.358 183.348 141.692 Z" fill="url(#gradient-8)" style=""/>
+  <path id="path-14" data-name="Path 408" d="M 312.399 141.153 C 312.678 141.486 302.169 153.011 301.62 153.586 C 301.072 154.161 300.401 154.357 300.121 154.023 C 299.842 153.689 300.06 152.953 300.608 152.379 C 301.156 151.804 312.119 140.819 312.399 141.153 Z" fill="url(#gradient-9)" style=""/>
+  <path id="path-15" data-name="Path 408" d="M 599.995 59.286 C 600.274 59.619 589.765 71.144 589.216 71.719 C 588.668 72.294 587.997 72.49 587.717 72.156 C 587.438 71.822 587.656 71.086 588.204 70.512 C 588.752 69.937 599.715 58.952 599.995 59.286 Z" fill="url(#gradient-10)" style="" transform="matrix(1, 0, 0, 1, -304.618286, 102.334282)"/>
+  <path id="path-16" data-name="Path 408" d="M 254.982 109.376 C 255.261 109.709 244.752 121.234 244.203 121.809 C 243.655 122.384 242.984 122.58 242.704 122.246 C 242.425 121.912 242.643 121.176 243.191 120.602 C 243.739 120.027 254.702 109.042 254.982 109.376 Z" fill="url(#gradient-11)" style=""/>
+  <path id="path-17" data-name="Path 408" d="M 373.474 72.751 C 373.753 73.084 363.244 84.609 362.695 85.184 C 362.147 85.759 361.476 85.955 361.196 85.621 C 360.917 85.287 361.135 84.551 361.683 83.977 C 362.231 83.402 373.194 72.417 373.474 72.751 Z" fill="url(#gradient-12)" style=""/>
+  <path id="path-18" data-name="Path 408" d="M 554.444 143.308 C 554.723 143.641 544.214 155.166 543.665 155.741 C 543.117 156.316 542.446 156.512 542.166 156.178 C 541.887 155.844 542.105 155.108 542.653 154.534 C 543.201 153.959 554.164 142.974 554.444 143.308 Z" fill="url(#gradient-13)" style=""/>
+  <path id="path-19" data-name="Path 408" d="M 412.399 144.385 C 412.678 144.718 402.169 156.243 401.62 156.818 C 401.072 157.393 400.401 157.589 400.121 157.255 C 399.842 156.921 400.06 156.185 400.608 155.611 C 401.156 155.036 412.119 144.051 412.399 144.385 Z" fill="url(#gradient-14)" style=""/>
+</svg>

@@ -15,6 +15,26 @@ html{
   background-image: url('https://wallpaperaccess.com/full/2856000.jpg');
 
 }
+.custom-img3{
+  background-image: url('../public/img/bg-gradient-3.svg');
+  height: fit-content;
+
+}
+.custom-img4{
+  background-image: url('../public/img/bg-gradient.svg');
+  height: fit-content;
+
+}
+.custom-img5{
+  background-image: url('../public/img/bg-gradient-4.svg');
+  height: fit-content;
+
+}
+.custom-img6{
+  background-image: url('https://images.unsplash.com/photo-1445855743215-296f71d4b49c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+
+}
+
 
 
 .video {

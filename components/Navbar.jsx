@@ -61,7 +61,7 @@ const Navbar = ({ colores }) => {
               <MenuList>
                 <Link href="/ServiciosInternet"><MenuItem>Internet</MenuItem></Link>
                 <Link href="/VPN"><MenuItem>VPN</MenuItem></Link>
-                <Link href="/Administrados"><MenuItem>Administrados</MenuItem></Link>
+                <MenuItem>Administrados</MenuItem>
                 <Link href="/TelefoniaIP"><MenuItem>Telefonia IP</MenuItem></Link>
               </MenuList>
             </Menu>
@@ -121,9 +121,8 @@ const Navbar = ({ colores }) => {
               <MenuList>
                 <Link href="/ServiciosInternet"><MenuItem>Internet</MenuItem></Link>
                 <Link href="/VPN"><MenuItem>VPN</MenuItem></Link>
-               
+                <MenuItem>Administrados</MenuItem>
                 <Link href="/TelefoniaIP"><MenuItem>Telefonia IP</MenuItem></Link>
-             <Link href="/Administrados">Administrados</Link>
               </MenuList>
             </Menu>
             </li>

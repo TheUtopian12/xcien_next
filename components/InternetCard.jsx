@@ -1,5 +1,5 @@
 import style from "../styles/InternetCards.module.scss";
-export default function InternetCard({ titulo, url }) {
+export default function InternetCard({ titulo, url, p1, p2, p3 ,p4 ,p5 }) {
   return (
     <div className={style["blog-card"]}>
       <div className={style.meta}>
@@ -12,23 +12,15 @@ export default function InternetCard({ titulo, url }) {
         className={`${style.description} justify-center text-center text-xs  `}
       >
         <h2>{titulo}</h2>
-        <p>
-          {" "}
-          Servicio de conexión exclusiva para corporativos y organizaciones
-          cuyos procesos dependen del uso de Internet para sus operaciones
-        </p>
-        <p>
-          Dedicado: enlace directo 1 a 1 Simétrico: misma velocidad de subida y
-          bajada
-        </p>
-        <p>SLA: 99.95%</p>
+        <p>{p1}</p>
+        <p>{p2}</p>
+        <p>{p3}</p>
+        <p>{p4}</p>
 
-        <p>Velocidad: Desde 5 Mbps hasta 1 Gb</p>
-
-        <p>Instalación hasta 5 días</p>
+        <p>{p5}</p>
 
         <p className={style["read-more"]}>
-          <a href="#">Contacto</a>
+          <a href="#">Mas Informacion</a>
         </p>
       </div>
     </div>

@@ -7,13 +7,12 @@ import {
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
 import Image from "next/image";
 import logoB from "../public/xcien_logo_N.png";
-import cemex from '../public/img/logos/cemex-logo.webp'
-import cfe from '../public/img/logos/Logo_neutral_de_la_Comisión_Federal_de_Electricidad.svg.png'
-import maiz from '../public/img/logos/maizmierlogo.png'
-import viva from '../public/img/logos/Nuevo_vivaaerobus_logotipo_original.jpg'
-import sigma from '../public/img/logos/Sigma_Alimentos_logotipo.png'
-import uanl from '../public/img/logos/Uanl.logo_-e1501528621503.png'
-
+import cemex from "../public/img/logos/cemex-logo.webp";
+import cfe from "../public/img/logos/Logo_neutral_de_la_Comisión_Federal_de_Electricidad.svg.png";
+import maiz from "../public/img/logos/maizmierlogo.png";
+import viva from "../public/img/logos/Nuevo_vivaaerobus_logotipo_original.jpg";
+import sigma from "../public/img/logos/Sigma_Alimentos_logotipo.png";
+import uanl from "../public/img/logos/Uanl.logo_-e1501528621503.png";
 
 export default function Opiniones() {
   const [open, setOpen] = useState(0);
@@ -25,7 +24,7 @@ export default function Opiniones() {
   return (
     <div className="mt-40 mb-28">
       <h1 className="flex items-center justify-center text-5xl mb-28 pt-14 text-black font-semibold">
-      Casos de Éxito
+        Casos de Éxito
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-8">
@@ -36,32 +35,42 @@ export default function Opiniones() {
             onClick={() => handleOpen(4)}
             style={{
               width: "500px",
-              boxShadow: "1px 1px 5px #009B3E",
-              borderRadius: "5px",
+              boxShadow: "5px 5px 5px #009B3E",
+              borderRadius: "0px",
             }}
             icon={<BsFillArrowDownCircleFill />}
           >
             <AccordionHeader className="ml-2 pl-2 pr-4">
-              XCIEN - Edwin{" "}
-            </AccordionHeader>
-            <AccordionBody>
-              <div className="p-0  rounded-md flex items-center justify-center">
-                <div className="w-full  p-0">
-                  <div className="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-32 border ">
+              <div className="flex flex-col items-start w-full m-auto sm:flex-row">
+                <div className="flex mx-auto sm:mr-10 sm:m-0">
+                  <div className="items-center justify-center w-10 h-20 m-auto mr-4 sm:w-32 sm:h-20">
                     <img
-                      className="block h-auto w-full lg:w-48 flex-none bg-cover"
-                      src={"https://xcien.com/img/xcien-logo.svg"}
+                      alt="profil"
+                      src="https://xcien.com/img/xcien-logo.svg"
+                      className="object-fit  mx-auto sm:w-32 sm:h-20"
                     />
-                    <div className="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                      <div className="text-black font-bold text-xl mb-2 leading-tight">
-                        Una plataforma real, agil y sencilla
-                      </div>
-                      <p className="text-grey-darker text-base">
-                        Edwin Castruita
-                      </p>
-                    </div>
                   </div>
                 </div>
+                <div className="flex flex-col pt-4 mx-auto my-auto sm:pt-0 sm:mx-0">
+                  <div className="flex flex-col mx-auto sm:flex-row sm:mx-0 ">
+                    <h2 className="flex text-xl font-light text-gray-900 sm:text-xl">
+                      Andrea Mitz
+                    </h2>
+                    <div className="flex"></div>
+                  </div>
+                </div>
+              </div>
+            </AccordionHeader>
+            <AccordionBody>
+              <div className="w-full p-5">
+                <h1 className="text-lg font-semibold text-gray-800 sm:text-xl">
+                  Andrea Mitz
+                </h1>
+                <p className="text-sm text-gray-500 md:text-base">XCIEN</p>
+                <p className="text-sm text-gray-800 md:text-base">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, quam?
+                </p>
               </div>
             </AccordionBody>
           </Accordion>
@@ -70,36 +79,46 @@ export default function Opiniones() {
         <div className="p-4  rounded-md flex items-center justify-center">
           <Accordion
             className="ml-2 pl-2 pr-4"
-            open={open === 1}
-            onClick={() => handleOpen(1)}
+            open={open === 2}
+            onClick={() => handleOpen(2)}
             style={{
               width: "500px",
-              boxShadow: "1px 1px 5px #009B3E",
-              borderRadius: "5px",
+              boxShadow: "5px 5px 5px #009B3E",
+              borderRadius: "0px",
             }}
             icon={<BsFillArrowDownCircleFill />}
           >
             <AccordionHeader className="ml-2 pl-2 pr-4">
-              XCIEN - Edwin{" "}
-            </AccordionHeader>
-            <AccordionBody>
-              <div className="p-0  rounded-md flex items-center justify-center">
-                <div className="w-full  p-0">
-                  <div className="flex flex-col lg:flex-row-reverse rounded-xl overflow-hidden h-auto lg:h-32 border bg-green-300">
+              <div className="flex flex-col items-start w-full m-auto sm:flex-row">
+                <div className="flex mx-auto sm:mr-10 sm:m-0">
+                  <div className="items-center justify-center w-10 h-20 m-auto mr-4 sm:w-32 sm:h-20">
                     <img
-                      className="block h-auto w-full lg:w-48 flex-none bg-cover"
-                      src={"https://xcien.com/img/xcien-logo.svg"}
+                      alt="profil"
+                      src="https://xcien.com/img/xcien-logo.svg"
+                      className="object-fit  mx-auto sm:w-32 sm:h-20"
                     />
-                    <div className="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                      <div className="text-black font-bold text-xl mb-2 leading-tight">
-                        Una plataforma real, agil y sencilla
-                      </div>
-                      <p className="text-grey-darker text-base">
-                        Edwin Castruita
-                      </p>
-                    </div>
                   </div>
                 </div>
+                <div className="flex flex-col pt-4 mx-auto my-auto sm:pt-0 sm:mx-0">
+                  <div className="flex flex-col mx-auto sm:flex-row sm:mx-0 ">
+                    <h2 className="flex text-xl font-light text-gray-900 sm:text-xl">
+                      Edwin Castruita
+                    </h2>
+                    <div className="flex"></div>
+                  </div>
+                </div>
+              </div>
+            </AccordionHeader>
+            <AccordionBody>
+              <div className="w-full p-5">
+                <h1 className="text-lg font-semibold text-gray-800 sm:text-xl">
+                  Edwin Castruita
+                </h1>
+                <p className="text-sm text-gray-500 md:text-base">XCIEN</p>
+                <p className="text-sm text-gray-800 md:text-base">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, quam?
+                </p>
               </div>
             </AccordionBody>
           </Accordion>
@@ -111,69 +130,42 @@ export default function Opiniones() {
             onClick={() => handleOpen(3)}
             style={{
               width: "500px",
-              boxShadow: "1px 1px 5px #009B3E",
-              borderRadius: "5px",
+              boxShadow: "5px 5px 5px #009B3E",
+              borderRadius: "0px",
             }}
             icon={<BsFillArrowDownCircleFill />}
           >
             <AccordionHeader className="ml-2 pl-2 pr-4">
-              XCIEN - Edwin{" "}
-            </AccordionHeader>
-            <AccordionBody>
-              <div className="p-0  rounded-md flex items-center justify-center">
-                <div className="w-full  p-0">
-                  <div className="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-32 border ">
+              <div className="flex flex-col items-start w-full m-auto sm:flex-row">
+                <div className="flex mx-auto sm:mr-10 sm:m-0">
+                  <div className="items-center justify-center w-10 h-20 m-auto mr-4 sm:w-32 sm:h-20">
                     <img
-                      className="block h-auto w-full lg:w-48 flex-none bg-cover"
-                      src={"https://xcien.com/img/xcien-logo.svg"}
+                      alt="profil"
+                      src="https://xcien.com/img/xcien-logo.svg"
+                      className="object-fit  mx-auto sm:w-32 sm:h-20"
                     />
-                    <div className="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                      <div className="text-black font-bold text-xl mb-2 leading-tight">
-                        Una plataforma real, agil y sencilla
-                      </div>
-                      <p className="text-grey-darker text-base">
-                        Edwin Castruita
-                      </p>
-                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col pt-4 mx-auto my-auto sm:pt-0 sm:mx-0">
+                  <div className="flex flex-col mx-auto sm:flex-row sm:mx-0 ">
+                    <h2 className="flex text-xl font-light text-gray-900 sm:text-xl">
+                    Antonio Rodríguez
+                    </h2>
+                    <div className="flex"></div>
                   </div>
                 </div>
               </div>
-            </AccordionBody>
-          </Accordion>
-        </div>
-        <div className="p-4  rounded-md flex items-center justify-center">
-          <Accordion
-            className="ml-2 pl-2 pr-4"
-            open={open === 2}
-            onClick={() => handleOpen(2)}
-            style={{
-              width: "500px",
-              boxShadow: "1px 1px 5px #009B3E",
-              borderRadius: "5px",
-            }}
-            icon={<BsFillArrowDownCircleFill />}
-          >
-            <AccordionHeader className="ml-2 pl-2 pr-4">
-              XCIEN - Edwin{" "}
             </AccordionHeader>
             <AccordionBody>
-              <div className="p-0  rounded-md flex items-center justify-center">
-                <div className="w-full  p-0">
-                  <div className="flex flex-col lg:flex-row-reverse rounded overflow-hidden h-auto lg:h-32 border ">
-                    <img
-                      className="block h-auto w-full lg:w-48 flex-none bg-cover"
-                      src={"https://xcien.com/img/xcien-logo.svg"}
-                    />
-                    <div className="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                      <div className="text-black font-bold text-xl mb-2 leading-tight">
-                        Una plataforma real, agil y sencilla
-                      </div>
-                      <p className="text-grey-darker text-base">
-                        Edwin Castruita
-                      </p>
-                    </div>
-                  </div>
-                </div>
+              <div className="w-full p-5">
+                <h1 className="text-lg font-semibold text-gray-800 sm:text-xl">
+                Antonio Rodríguez
+                </h1>
+                <p className="text-sm text-gray-500 md:text-base">XCIEN</p>
+                <p className="text-sm text-gray-800 md:text-base">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate, quam?
+                </p>
               </div>
             </AccordionBody>
           </Accordion>

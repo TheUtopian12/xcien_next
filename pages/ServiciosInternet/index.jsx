@@ -151,6 +151,12 @@ const ServiciosInternet = () => {
           url={
             "https://www.escueladeinternet.com/wp-content/uploads/2014/08/Imatge_Nominalia-Office-365-300x255.jpg"
           }
+          p1={"Servicio de conexión exclusiva para corporativos y organizaciones cuyos procesos dependen del uso de Internet para sus operaciones          "}
+          p2={"Dedicado: enlace directo 1 a 1          Simétrico: misma velocidad de subida y bajada"}
+          p3={"SLA: 99.95%"}
+          p4={"Velocidad: Desde 5 Mbps  hasta 1 Gb          "}
+          p5={"Instalación hasta 5 días"}
+
         />
         <br />
         <InternetCard
@@ -158,6 +164,12 @@ const ServiciosInternet = () => {
           url={
             "https://mypes.pe/sites/default/files/styles/1_columna_lg/public/2018-05/imagen-editada-5.jpg?itok=n7k9BbuE"
           }
+
+          p1={"Servicio de conexión exclusiva para pequeños y medianos negocios cuyos procesos dependen del uso de Internet para sus operaciones"}
+          p2={"Asimétrico"}
+          p3={"SLA: 99%"}
+          p4={"Velocidad: 10 Mbps y 20 Mbps"}
+          p5={"Instalación hasta 7 días"}
         />
         <br />
         <InternetCard
@@ -165,13 +177,25 @@ const ServiciosInternet = () => {
           url={
             "https://d500.epimg.net/cincodias/imagenes/2016/05/01/lifestyle/1462107416_170521_1462107510_noticia_normal.jpg"
           }
+
+          p1={"Servicio de conexión ideal para emprendedores, trabajo en casa o usuarios exigentes que requieren un servicio de Internet en casa."}
+          p2={"Asimétrico"}
+          p3={"SLA: 99%"}
+          p4={"Velocidad: 10 Mbps y 20 Mbps"}
+          p5={"Instalación hasta 7 días"}
         />
+     
         <br />
         <InternetCard
           titulo={"INTERNET PARA EVENTOS"}
           url={
             "https://zsf2bmwpkpm0.cdn.shift8web.ca/wp-content/uploads/2020/12/internet-para-eventos-1.jpg"
           }
+          p1={"Contrata Internet para eventos los días que los necesites. Internet flexible, dedicado y de rápida instalación."}
+          p2={"Dedicado: enlace directo 1 a 1  Simétrico: misma velocidad de subida y bajada"}
+          p3={"SLA: 99.95%"}
+          p4={"Velocidad: Desde 10 Mbps hasta 1 Gb"}
+          p5={"Contratación por días    "}
         />
       </div>
     </div>
