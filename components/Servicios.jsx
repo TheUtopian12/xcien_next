@@ -7,7 +7,7 @@ const Servicios = () => {
         <h1 className="flex items-center justify-center text-6xl mb-28 pt-24 text-white font-semibold">
           Servicios
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 " >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-8 " >
           {" "}
           <div className="p-4  rounded-md flex items-center justify-center">
             <Card

@@ -4,6 +4,7 @@ import Image from "next/image";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import logoB from "../public/xcien_logo_N.png";
 import logoW from "../public/xcien_logo.png";
+import ModalForm from "./ModalForm";
 import {
   Menu,
   MenuHandler,
@@ -17,6 +18,7 @@ const Navbar = ({ colores }) => {
   const [color, setColor] = useState(colores);
   const [textColor, setTextColor] = useState("white");
   const [logo, setLogo] = useState(logoW);
+  const [showModal, setShowModal] = React.useState(false);
 
   const handleNav = () => {
     setNav(!nav);
@@ -51,7 +53,7 @@ const Navbar = ({ colores }) => {
 
         <ul style={{ color: `${textColor}`, fontSize:'16px' }} className="hidden sm:flex">
           <li className="p-4">
-            <Link href="/">Principal</Link>
+            <Link href="/">Inicio</Link>
           </li>
           <li className="p-1">
             <Menu>
@@ -61,16 +63,23 @@ const Navbar = ({ colores }) => {
               <MenuList>
                 <Link href="/ServiciosInternet"><MenuItem>Internet</MenuItem></Link>
                 <Link href="/VPN"><MenuItem>VPN</MenuItem></Link>
-                <MenuItem>Administrados</MenuItem>
+              <Link href='/Administrados'><MenuItem>Seguridad Administrada</MenuItem></Link>  
                 <Link href="/TelefoniaIP"><MenuItem>Telefonia IP</MenuItem></Link>
+                <Link href="/DataCenter"><MenuItem>Data Center</MenuItem></Link>
+                <Link href="/DataCenter"><MenuItem>SDWAN</MenuItem></Link>
+                <Link href="/DataCenter"><MenuItem>Strong Internet</MenuItem></Link>
               </MenuList>
             </Menu>
+
+
+
           </li>
           <li className="p-4">
             <Link href="/nosotros">Nosotros</Link>
           </li>
           <li className="p-4">
-            <Link href="/contacto">Contacto</Link>
+            
+             <ModalForm />
           </li>
           <li className="p-3.5" style={{ cursor: "pointer" }}>
             <Link href="https://odoo.wispi.mx/my/home" target="_parent">
@@ -130,7 +139,7 @@ const Navbar = ({ colores }) => {
             <Link href="/nosotros">Nosotros</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/contacto'>Contacto</Link>
+            <ModalForm />
             </li>
           </ul>
 

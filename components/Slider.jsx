@@ -3,7 +3,6 @@ import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 import Image from "next/image";
 import { SliderData } from "./SliderData";
 
-
 const Slider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const nextSlide = () => {
@@ -21,11 +20,11 @@ const Slider = ({ slides }) => {
       <h1 className="text-2xl font-bold text-center p-4"></h1>
       <div className="relative flex justify-center p-4">
         <div>
-        <FaArrowCircleLeft
-                  onClick={prevSlide}
-                  size={50}
-                  className="absolute top-[50%] left-[30px] text-black/70 cursor-pointer select-none z-[2] "
-                />
+          <FaArrowCircleLeft
+            onClick={prevSlide}
+            size={50}
+            className="absolute top-[50%] left-[30px] text-black/70 cursor-pointer select-none z-[2] "
+          />
           {SliderData.map((slide, index) => {
             return (
               <div
@@ -37,7 +36,6 @@ const Slider = ({ slides }) => {
                 }
               >
                 {" "}
-             
                 {index === current && (
                   <Image
                     width="1440"
@@ -46,18 +44,16 @@ const Slider = ({ slides }) => {
                     src={slide.image}
                     alt="/"
                     className="rounded-3xl"
-                    
                   />
                 )}
-                
               </div>
             );
           })}{" "}
           <FaArrowCircleRight
-                  onClick={nextSlide}
-                  size={50}
-                  className="absolute top-[50%] right-[30px] text-black/70 cursor-pointer select-none z-[2]"
-                />
+            onClick={nextSlide}
+            size={50}
+            className="absolute top-[50%] right-[30px] text-black/70 cursor-pointer select-none z-[2]"
+          />
         </div>
       </div>
     </div>

@@ -1,91 +1,97 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
-import style from "../../styles/vpn.module.css";
-import vpnLogo from "../../public/img/vpn.png";
-import Navbar2 from "../../components/Navbar2";
-
-const index = () => {
+import Logo from "../../public/img/LogoFirewalli_BC.png";
+import grafico from "../../public/img/undraw_startup_life_re_8ow9.svg";
+import firewall from '../../public/img/firewall.svg'
+import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
+import Footer from "../../components/Footer";
+const Administrados = () => {
+  const [slide, setSlide] = useState(1);
   return (
-    <div className={style.container1}>
-      <Navbar2 />
-      <div id={style.contentText}>
-        <h3 className={`${style.tituloh3} text-5xl`}>
-          Administrada por equipo especializado
-        </h3>
-        <br />
-        <>
-          <p style={{ color: "white", fontSize: "20px" }}>
-            <strong className="hover:text-green-600 text-3xl"></strong>
-            <br />
-          </p>
-          <br />
-          <p className="text-white text-xl">
-            <br />
-            Firewall de última generación
-          </p>
-          <br />
-          <p className="text-white text-xl">Varios puertos WAN</p>
 
-          <p className="text-white text-xl">
-            <br />
-            Filtrado de contenido
-          </p>
+    <><div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-0">
+      <div className="p-10 flex justify-center h-full bg-relative  bg-cover custom-img">
+        
+        
+        <div className="text-center text-4xl text-white font-bold pt-10">
+          <h1>Seguridad Administrada</h1>
+          <br /> <br />
+          <FaArrowCircleLeft
+            onClick={()=>{setSlide(slide-1)}}
+            size={50}
+            className="absolute top-[45%] left-[30px] text-black/50 cursor-pointer select-none z-[2] "
+          />
+          {slide === 1 ? (
+            <>
+              {" "}
+              <div className="p-6 max-w-sm bg-black rounded-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 backdrop-blur-sm bg-opacity-70 ">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-100 dark:text-white">
+                    FIREWALLI
+                  </h5>
+                  <Image src={Logo} />
+                </a>
+              </div>
+              <br /> <br />
+              <div className="p-6 max-w-sm bg-black rounded-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 backdrop-blur-sm bg-opacity-70 ">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-100 dark:text-white">
+                    Otros Equipos
+                  </h5>
+                  <Image src={grafico} />
+                </a>
+              </div>
+            </>
+          ) : slide === 2 ? (
+            <>
+              <p className="text-center ">TRABAJA SEGURO Y SIEMPRE CONECTADO</p>
+              <p className="text-3xl pt-24 text-justify">
+                Seguridad para tu negocio administrada 100% en la nube, la
+                instalación y la administración remota es más simple.
+              </p>
+              <p className="text-3xl pt-24 text-justify">
+                Incrementa la productividad de tu negocio.
+              </p>
+              <h3 className="text-3xl pt-12 text-justify">Incluye:</h3>
+              <ul className="list-disc text-2xl text-justify py-10">
+                <li>Filtrado de contenido.</li>
+                <li>Filtrado de búsqueda web.</li>
+                <li>Filtrado de redes sociales/streaming.</li>
+                <li>Prevención de intrusiones.</li>
+              </ul>
+            </>
+          ) 
+        : slide === 3 ?(
 
-          <p className="text-white text-xl">
-            <br />
-            Antivirus y Antiphishing
-          </p>
-          <br />
-          <p className="text-white text-xl">
-            <br />
-            Control de aplicaciones (en tus manos)
-          </p>
-          <br />
-          <p className="text-white text-xl">
-            <br />
-            Tolerancia a fallos
-          </p>
-          <br />
-          <p className="text-white text-xl">
-            <br />
-            Prevención de intrusiones
-          </p>
-          <br />
-        </>
+          <>
+                <p className=" text-justify pt-24 ">Beneficios</p>
+                <ul className="list-disc text-2xl text-justify py-10">
+                  <li>Firewall de última generación</li><br />
+                  <li>Control de aplicaciones (en tus manos)</li><br />
+                  <li>Varios puertos WAN</li><br />
+                  <li>Tolerancia a fallos</li><br />
+                  <li>Filtrado de contenido</li><br />
+                  <li>Prevención de intrusiones</li><br />
+                  <li>Antivirus y Antiphishing</li><br />
+                </ul>
+              </>
+        ): <>{setSlide(1)} </>
+        } <FaArrowCircleRight
+        onClick={()=>{setSlide(slide+1)}}
+        size={50}
+        className="absolute top-[45%] right-1/2 text-black/50 cursor-pointer select-none z-[2]"
+      />
+        </div>
       </div>
-      <div className="flex-row items-center justify-center bg-white m-36">
-        <br />
-        <Image
-          src={
-            "https://www.profesionalreview.com/wp-content/uploads/2017/09/IoT.jpg"
-          }
-          width="800"
-          height="400"
-          style={{ borderRadius: "0px 100px 0px 100px;" }}
-        />
 
-        <button
-          type="button"
-          className="text-black hover:text-white relative left-1/3 bg-green-400 hover:bg-green-500 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-white dark:hover:bg-green-700 dark:focus:ring-green-800"
-        >
-          Más Información
-          <svg
-            aria-hidden="true"
-            className="ml-2 -mr-1 w-5 h-5"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fillRule="evenodd"
-              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-              clipRule="evenodd"
-            ></path>
-          </svg>
-        </button>
+      <div className="p-4 bg-white rounded-md grid-cols-1 flex justify-center items-center" >
+        <Image src={firewall} width={500} height={300}/>
       </div>
     </div>
+    <Footer/>
+    </>
+    
   );
 };
 
-export default index;
+export default Administrados;

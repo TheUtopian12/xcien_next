@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import style from "../../styles/vpn.module.css";
-import vpnLogo from "../../public/img/vpn.png";
 import Navbar2 from "../../components/Navbar2";
 import grafico from '../../public/img/Imagen1.png'
-import grafico2 from '../../public/img/Imagen2.png'
 const Vpm = () => {
   const [slide, setSlide] = useState(true);
   return (

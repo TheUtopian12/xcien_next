@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Navbar2 from "../../components/Navbar2";
-import phone from "../../public/img/telephone.svg";
+import phone from "../../public/img/server.svg";
 import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 import Footer from "../../components/Footer";
 const index = () => {
@@ -9,9 +9,9 @@ const index = () => {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-0">
-        <div className="p-10 flex justify-center h-full bg-relative  bg-cover custom-img">
+        <div className="p-10 flex justify-center h-full lg:h-screen bg-relative  bg-cover custom-img">
           <div className="text-center text-4xl text-white font-bold pt-10">
-            <h1>Telefonía IP</h1>
+            <h1>Data Center</h1>
             <br /> <br />
             <FaArrowCircleLeft
               onClick={() => {
@@ -22,39 +22,36 @@ const index = () => {
             />
             {slide === 1 ? (
               <>
-                <p className="text-center ">
-                  Con nuestro servicio de telefonía IP te permitimos lograr una
-                  comunicación fácil, efectiva y flexible en tu negocio.
+                <p className="text-center ">CO-UBICACIÓN</p>
+                <p className="text-3xl pt-24 text-justify">
+                  La co-ubicación en Rack o en Torre incluye: el
+                  acondicionamiento, medios técnicos, seguridad, monitoreo y
+                  energía, para que el operador pueda realizar interconexión a
+                  la red o instalaciones del arrendador.
                 </p>
                 <p className="text-3xl pt-24 text-justify">
-                  Integramos las mejores herramientas para brindar una mayor
-                  productividad.
+                  Ofrecemos: acondicionamiento, medios técnicos, seguridad,
+                  monitoreo, soporte y una atención personalizada.
                 </p>
                 <p className="text-3xl pt-24 text-justify">
-                  La vida es móvil y las empresas cada vez demandan más
-                  soluciones que puedan ser ejecutadas desde cualquier
-                  dispositivo y en cualquier lugar.
-                </p>
-                <p className="text-3xl pt-24 text-justify">
-                  Telefonía IP la mejor solución para la Transformación Digital
-                  de las empresas.{" "}
+                  Ubicaciones: Monterrey, Guadalajara, *Saltillo y Querétaro.
                 </p>
               </>
             ) : slide === 2 ? (
               <>
                 <p className=" text-justify pt-24 ">Beneficios</p>
                 <ul className="list-disc text-2xl text-justify py-10">
-                  <li> Calidad de voz mejorada</li>
+                  <li>Alojamiento seguro</li>
                   <br />
-                  <li>Escalable</li>
+                  <li>Reducción de costos</li>
                   <br />
-                  <li>Menor inversión</li>
+                  <li>Soporte y operación especializado</li>
                   <br />
-                  <li>Sin retrasos en la transmisión</li>
+                  <li>Ambientación óptima</li>
                   <br />
-                  <li>Ahorro de costos</li>
+                  <li>Mayor flexibilidad y escalabilidad</li>
                   <br />
-                  <li>Reducción del importe de la factura telefónica</li>
+                  <li>Seguridad</li>
 
                   <br />
                 </ul>
@@ -63,33 +60,19 @@ const index = () => {
               <>
                 <p className=" text-justify pt-24 ">
                   {" "}
-                  Telefonía IP la mejor solución para la Transformación Digital
-                  de las empresas.
+                  Despreocúpate por:
                 </p>
                 <ul className="list-disc text-2xl text-justify py-10">
-                  <li>Conmutador virtual.</li>
+                  <li>Vigilar que los servidores estén funcionando correctamente.</li>
 
                   <li>
-                    Flexibilidad, utiliza tus extensiones telefónicas en
-                    oficinas, casa o donde quiera que estés etc.
+                  Todo el proceso de energía, que te mantiene en línea.
                   </li>
 
                   <li>
-                    Extensiones móviles, configura tu extensión en tus
-                    dispositivos móviles.
+                  El proceso de seguridad, tanto lógica como física.
                   </li>
 
-                  <li>
-                    Opera sobre la misma red, los aparatos telefónicos cuentan
-                    con 2 puertos de red (puente de conexión).
-                  </li>
-
-                  <li>Reduce tu factura telefónica.</li>
-
-                  <li>Calidad en las llamadas.</li>
-                  <li>Servicio empresarial.</li>
-                  <li>Soporte técnico en línea.</li>
-                  <li>Soporte técnico en línea.</li>
 
                   <br />
                 </ul>

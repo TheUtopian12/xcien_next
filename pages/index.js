@@ -1,12 +1,12 @@
+
 import Head from "next/head";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Nosotros from "../components/Nosotros";
 import Opiniones from "../components/Opiniones";
 import Servicios from "../components/Servicios";
-import Slider from "../components/Slider";
+import Footer from '../components/Footer'
 import { Slider2 } from "../components/Slider2";
-import { SliderData } from "../components/SliderData";
 
 export default function Home() {
   return (
@@ -24,9 +24,9 @@ export default function Home() {
       />
       <Slider2 />
       <Servicios />
-
       <Opiniones />
       <Nosotros />
+      <Footer/>
     </div>
   );
 }
