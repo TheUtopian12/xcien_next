@@ -34,7 +34,7 @@ const Hero = () => {
       className="flex items-center justify-center h-screen mb-12 "
       ref={vantaRef}
     >
-      <div className=" text-white z-[2] mt-[-10rem] text-center">
+      <div className=" text-white z-[2] mt-[-10rem] text-center pt-10">
         <h2 className="text-3xl font-normal">Proveedor de servicios de</h2>
         <h2 className="text-3xl font-bold">TELECOMUNICACIONES</h2>
         <h2 className="text-3xl font-normal">para empresas</h2>
