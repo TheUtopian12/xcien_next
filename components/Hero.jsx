@@ -15,7 +15,7 @@ const Hero = () => {
           el: vantaRef.current,
           THREE,
           minHeight: 200.0,
-          minWidth: 390.0,
+          minWidth: 375.0,
           scale: 1.0,
           scaleMobile: 1.0,
           color: 0x55ff3f,
