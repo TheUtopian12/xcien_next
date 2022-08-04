@@ -5,7 +5,7 @@ export default function ModalForm() {
   return (
     <>
       <button
-        className=" text-`${textColor}`  text-base shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 text-xl hover:text-gray-500"
+        className=" text-`${textColor}`  shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 text-xl hover:text-gray-500"
         type="button"
         onClick={() => setShowModal(true)}
       >
