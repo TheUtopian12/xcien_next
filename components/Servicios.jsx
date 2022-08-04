@@ -42,7 +42,7 @@ const Servicios = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-8 ">
           {" "}
           {info.map((datos) => (
-            <div className="p-4  rounded-md flex items-center justify-center">
+            <div className="p-4  rounded-md flex items-center justify-center" key={datos.id}>
               {" "}
               <div className={style.flip}>
                 <div

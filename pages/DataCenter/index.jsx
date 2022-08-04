@@ -4,7 +4,7 @@ import Navbar2 from "../../components/Navbar2";
 import phone from "../../public/img/server.svg";
 import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 import Footer from "../../components/Footer";
-const index = () => {
+const DataCenter = () => {
   const [slide, setSlide] = useState(3);
   return (
     <>
@@ -99,4 +99,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default DataCenter;
