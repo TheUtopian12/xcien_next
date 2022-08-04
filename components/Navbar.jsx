@@ -123,20 +123,10 @@ const Navbar = ({ colores }) => {
               <Link href='/'>Principal</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-            <Menu>
-              <MenuHandler>
-                <Button variant="text" size="lg" color="grey" style={{ color: `${textColor}`, fontWeight:'normal', textTransform:'capitalize', fontSize:'16px' }}>Servicios</Button>
-              </MenuHandler>
-              <MenuList>
-                <Link href="/ServiciosInternet"><MenuItem>Internet</MenuItem></Link>
-                <Link href="/VPN"><MenuItem>VPN</MenuItem></Link>
-                <MenuItem>Administrados</MenuItem>
-                <Link href="/TelefoniaIP"><MenuItem>Telefonia IP</MenuItem></Link>
-              </MenuList>
-            </Menu>
+            <Link href="/#servicios">Servicios</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-            <Link href="/nosotros">Nosotros</Link>
+            <Link href="/#nosotros">Nosotros</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
             <ModalForm />
