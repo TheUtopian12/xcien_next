@@ -27,7 +27,7 @@ const Nosotros = () => {
             </p>
           </div>
         </div>
-        <div className="p-4 bg-white rounded-md grid-cols-1 justify-center">
+        <div className="p-4 bg-white rounded-md grid-cols-1 justify-center m-4" >
           <p className="text-black text-4xl font-bold text-center pt-28">
             Nosotros
           </p>
