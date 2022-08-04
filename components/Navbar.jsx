@@ -119,16 +119,16 @@ const Navbar = ({ colores }) => {
           }
         >
           <ul>
-            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+            <li onClick={handleNav} className='p-4 text-xl hover:text-gray-500'>
               <Link href='/'>Principal</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-            <Link href="/#servicios">Servicios</Link>
+            <li onClick={handleNav} className='p-4 text-xl hover:text-gray-500'>
+            <Link href="/#nosotros">Servicios</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+            <li onClick={handleNav} className='p-4 text-xl hover:text-gray-500'>
             <Link href="/#nosotros">Nosotros</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+            <li onClick={handleNav} className='p-4 text-xl hover:text-gray-500'>
             <ModalForm />
             </li>
           </ul>
