@@ -7,9 +7,9 @@ import {
 const Nosotros = () => {
   return (
     <div className="p-0 bg-grey-100" id="nosotros">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-0">
-        <div className="p-10 flex items-center justify-center h-screen bg-relative bg-fixed bg-cover custom-img6">
-          <div className="p-6 max-w-sm bg-white rounded-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 backdrop-blur-sm bg-opacity-70 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-0 ">
+        <div className="p-10 flex items-center justify-center h-screen bg-relative bg-fixed bg-cover custom-img6 ">
+          <div className="p-2 max-w-sm bg-white rounded-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 backdrop-blur-sm bg-opacity-70 ">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Av. Eugenio Garza Sada 3820, Roma, 64780 Monterrey, N.L.

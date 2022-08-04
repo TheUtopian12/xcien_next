@@ -1,6 +1,8 @@
-import React from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import style from "../styles/ServiciosInternet.module.scss";
+import TOPOLOGY from "vanta/dist/vanta.waves.min";
+import * as THREE from "three";
 const info = [
   {
     id: 1,
@@ -33,13 +35,39 @@ const info = [
   },
 ];
 const Servicios = () => {
+  const [vantaEffect, setVantaEffect] = useState(0);
+  const vantaRef = useRef(null);
+  useEffect(() => {
+    if (!vantaEffect) {
+      setVantaEffect(
+        TOPOLOGY({
+          el: vantaRef.current,
+          THREE,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 390.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color: 0x2800,
+          shininess: 27.00,
+          waveSpeed: 0.15,
+          zoom: 0.86
+        })
+      );
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destroy();
+    };
+  }, [vantaEffect]);
   return (
-    <>
-      <div className="h-auto bg-cover2 custom-img mb-28" id="servicios">
+   
+      <div className="h-auto mb-28" id="servicios" ref={vantaRef}>
         <h1 className="flex items-center justify-center text-6xl mb-28 pt-24 text-white font-semibold">
           Servicios
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-8 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-8 p-4">
           {" "}
           {info.map((datos) => (
             <div className="p-4  rounded-md flex items-center justify-center" key={datos.id}>
@@ -68,7 +96,7 @@ const Servicios = () => {
           ))}
         </div>
       </div>
-    </>
+    
   );
 };
 

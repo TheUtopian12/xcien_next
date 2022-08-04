@@ -15,11 +15,13 @@ const Hero = () => {
           el: vantaRef.current,
           THREE,
           minHeight: 200.0,
-          minWidth: 200.0,
+          minWidth: 350.0,
           scale: 1.0,
           scaleMobile: 1.0,
           color: 0x55ff3f,
           backgroundColor: 0x111125,
+          maxDistance:20
+          , spacing:20
         })
       );
     }
