@@ -1,5 +1,6 @@
+import Link from "next/link";
 import style from "../styles/InternetCards.module.scss";
-export default function InternetCard({ titulo, url, p1, p2, p3 ,p4 ,p5 }) {
+export default function InternetCard({ titulo, url, p1, p2, p3 ,p4 ,p5, pagina }) {
   return (
     <div className={style["blog-card"]}>
       <div className={style.meta}>
@@ -20,7 +21,7 @@ export default function InternetCard({ titulo, url, p1, p2, p3 ,p4 ,p5 }) {
         <p>{p5}</p>
 
         <p className={style["read-more"]}>
-          <a href="#">Mas Informacion</a>
+          <Link href={pagina}>Mas Informacion</Link>
         </p>
       </div>
     </div>

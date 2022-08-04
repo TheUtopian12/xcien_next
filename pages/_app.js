@@ -6,6 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <ThemeProvider>
+        <Navbar/>
         <Component {...pageProps} />
        
       </ThemeProvider>

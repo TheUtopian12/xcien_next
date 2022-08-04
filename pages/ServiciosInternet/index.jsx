@@ -40,8 +40,8 @@ const ServiciosInternet = () => {
   }
 
   return (
-    <div className={style.container1}>
-      <Navbar2 />
+    <div className={style.container1} >
+
       <div
         id={style.contentText}
         className="bg-fixed bg-center bg-cover custom-img h-full "
@@ -156,6 +156,7 @@ const ServiciosInternet = () => {
           p3={"SLA: 99.95%"}
           p4={"Velocidad: Desde 5 Mbps  hasta 1 Gb          "}
           p5={"Instalación hasta 5 días"}
+          pagina={'/InternetDedicado'}
 
         />
         <br />
@@ -170,6 +171,7 @@ const ServiciosInternet = () => {
           p3={"SLA: 99%"}
           p4={"Velocidad: 10 Mbps y 20 Mbps"}
           p5={"Instalación hasta 7 días"}
+          pagina={'/InternetMype'}
         />
         <br />
         <InternetCard
@@ -182,7 +184,8 @@ const ServiciosInternet = () => {
           p2={"Asimétrico"}
           p3={"SLA: 99%"}
           p4={"Velocidad: 10 Mbps y 20 Mbps"}
-          p5={"Instalación hasta 7 días"}
+          p5={"Instalación hasta 7 días"} 
+          pagina={'/InternetResidencial'}
         />
      
         <br />
@@ -196,6 +199,7 @@ const ServiciosInternet = () => {
           p3={"SLA: 99.95%"}
           p4={"Velocidad: Desde 10 Mbps hasta 1 Gb"}
           p5={"Contratación por días    "}
+          pagina={'/InternetEventual'}
         />
       </div>
     </div>

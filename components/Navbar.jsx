@@ -66,8 +66,8 @@ const Navbar = ({ colores }) => {
               <Link href='/Administrados'><MenuItem>Seguridad Administrada</MenuItem></Link>  
                 <Link href="/TelefoniaIP"><MenuItem>Telefonia IP</MenuItem></Link>
                 <Link href="/DataCenter"><MenuItem>Data Center</MenuItem></Link>
-                <Link href="/DataCenter"><MenuItem>SDWAN</MenuItem></Link>
-                <Link href="/DataCenter"><MenuItem>Strong Internet</MenuItem></Link>
+                <Link href="/#"><MenuItem>SDWAN</MenuItem></Link>
+                <Link href="/#"><MenuItem>Strong Internet</MenuItem></Link>
               </MenuList>
             </Menu>
 
