@@ -75,7 +75,7 @@ const Navbar = ({ colores }) => {
 
           </li>
           <li className="p-4">
-            <Link href="/nosotros">Nosotros</Link>
+            <Link href="/#nosotros">Nosotros</Link>
           </li>
           <li className="p-4">
             

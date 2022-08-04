@@ -2918,6 +2918,11 @@
   "resolved" "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz"
   "version" "0.2.0"
 
+"three@^0.121.0":
+  "integrity" "sha512-+rYhNpW5W1aBdLkPQDld/GA4Sj/uOKJJKVpCAZUbpk/HZEiYRUlPt8+s+9nmxRglWmRHdBa3ERvUwqg4nmoA5w=="
+  "resolved" "https://registry.npmjs.org/three/-/three-0.121.1.tgz"
+  "version" "0.121.1"
+
 "through@^2.3.6":
   "integrity" "sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg=="
   "resolved" "https://registry.npmjs.org/through/-/through-2.3.8.tgz"
@@ -3064,6 +3069,11 @@
   "integrity" "sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA=="
   "resolved" "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz"
   "version" "2.3.0"
+
+"vanta@^0.5.22":
+  "integrity" "sha512-Y58U1SjHU6HeIuwq+te7eonyi7LWzKqyPDjZyQ7Kb6Zy4ampNJHRIUZvf1Pwl6uTC6Qi6P9fUYDsUVQDHq0KKg=="
+  "resolved" "https://registry.npmjs.org/vanta/-/vanta-0.5.22.tgz"
+  "version" "0.5.22"
 
 "wcwidth@^1.0.1":
   "integrity" "sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg=="

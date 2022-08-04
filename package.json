@@ -25,7 +25,9 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
     "react-owl-carousel": "^2.3.3",
-    "sass": "^1.53.0"
+    "sass": "^1.53.0",
+    "three": "^0.121.0",
+    "vanta": "^0.5.22"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
