@@ -123,7 +123,7 @@ const Navbar = ({ colores }) => {
               <Link href='/'>Principal</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-xl hover:text-gray-500'>
-            <Link href="/#nosotros">Servicios</Link>
+            <Link href="/#servicios">Servicios</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-xl hover:text-gray-500'>
             <Link href="/#nosotros">Nosotros</Link>
