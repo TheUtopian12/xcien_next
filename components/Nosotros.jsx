@@ -6,7 +6,7 @@ import {
 } from "react-icons/ai";
 const Nosotros = () => {
   return (
-    <div className=" bg-grey-100" id="nosotros">
+    <div className=" bg-white" id="nosotros">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-0 ">
         <div className=" flex items-center justify-center h-screen w-full  bg-fixed bg-cover custom-img6 ">
           <div className="p-2 max-w-sm bg-white rounded-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 backdrop-blur-sm bg-opacity-70 ">
