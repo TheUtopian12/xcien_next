@@ -78,8 +78,7 @@ const Navbar = ({ colores }) => {
             <Link href="/#nosotros">Nosotros</Link>
           </li>
           <li className="p-4">
-            
-             <ModalForm />
+          <Link href="/#">Contacto</Link>
           </li>
           <li className="p-3.5" style={{ cursor: "pointer" }}>
             <Link href="https://odoo.wispi.mx/my/home" target="_parent">
@@ -129,7 +128,7 @@ const Navbar = ({ colores }) => {
             <Link href="/#nosotros">Nosotros</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-xl hover:text-gray-500'>
-            <ModalForm />
+            Contacto
             </li>
           </ul>
 
