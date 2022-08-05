@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import { CardExpand } from "../components/ExpandCards/CardExpand";
 
 import { Slider2 } from "../components/Slider2";
+import PromocionApp from "../components/PromocionApp";
 
 export default function Home() {
   const size = useWindowSize();
@@ -61,6 +62,7 @@ export default function Home() {
       {size.width < 800 ? <Slider2 /> : <CardExpand />}
 
       <Servicios />
+      <PromocionApp/>
       <Nosotros />
       <Opiniones />
 

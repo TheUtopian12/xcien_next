@@ -35,11 +35,11 @@ const Hero = () => {
       ref={vantaRef}
     >
       <div className=" text-white z-[2] mt-[-10rem] text-center pt-16">
-        <h2 className="text-3xl font-normal">Proveedor de servicios de</h2>
-        <h2 className="text-3xl font-bold">TELECOMUNICACIONES</h2>
-        <h2 className="text-3xl font-normal">para empresas</h2>
+        <h2 className="text-white font-semibold sm:text-xl lg:text-xl xl:text-4xl">Proveedor de servicios de</h2>
+        <h2 className="text-white font-bold sm:text-xl lg:text-xl xl:text-4xl">TELECOMUNICACIONES</h2>
+        <h2 className="text-white font-semibold sm:text-xl lg:text-xl xl:text-4xl">para empresas</h2>
         <br />
-        <p className="py-5 text-2xl">
+        <p className="py-5 font-semibold sm:text-xl lg:text-xl xl:text-4xl">
           Integramos soluciones de conectividad con alta disponibilidad y
           seguridad.
         </p>

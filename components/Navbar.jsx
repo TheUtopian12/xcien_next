@@ -67,7 +67,7 @@ const Navbar = ({ colores }) => {
                 <Link href="/TelefoniaIP"><MenuItem>Telefonia IP</MenuItem></Link>
                 <Link href="/DataCenter"><MenuItem>Data Center</MenuItem></Link>
                 <Link href="/#"><MenuItem>SDWAN</MenuItem></Link>
-                <Link href="/#"><MenuItem>Strong Internet</MenuItem></Link>
+                <Link href="/StrongInternet"><MenuItem>Strong Internet</MenuItem></Link>
               </MenuList>
             </Menu>
 
