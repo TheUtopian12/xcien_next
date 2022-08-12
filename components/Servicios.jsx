@@ -35,17 +35,17 @@ const info = [
   },
   {
     id: 5,
-    imagen:'https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
-    title: "Telefonía IP",
+    imagen:'https://images.unsplash.com/photo-1517281862878-d312fe477d71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1380&q=80',
+    title: "Data Center",
     description: "Logra una comunicacion efectiva sobre internet en tu negocio",
-    url: "/TelefoniaIP",
+    url: "/DataCenter",
   },
   {
     id: 6,
-    imagen:'https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
-    title: "Telefonía IP",
+    imagen:'https://images.unsplash.com/photo-1606778303077-3780ea8d5420?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+    title: "Strong Internet",
     description: "Logra una comunicacion efectiva sobre internet en tu negocio",
-    url: "/TelefoniaIP",
+    url: "/StrongInternet",
   },
 ];
 const Servicios = () => {

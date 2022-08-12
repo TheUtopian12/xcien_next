@@ -7,7 +7,7 @@ import {
 import ModalMap from "./ModalMap";
 const Nosotros = () => {
   const [open, setOpen] = useState(false);
-
+  
   return (
     <div className=" bg-white" id="nosotros">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-0 ">
