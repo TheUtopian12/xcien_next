@@ -1,63 +1,21 @@
-import React, { useState } from "react";
-import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
-import Image from "next/image";
-import { SliderData } from "./SliderData";
+import React from 'react'
 
-const Slider = ({ slides }) => {
-  const [current, setCurrent] = useState(0);
-  const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
-  };
-
-  const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
-  };
-  if (!Array.isArray(slides) || slides.length <= 0) {
-    return null;
-  }
+const Slider = () => {
   return (
-    <div id="" className="max-2-[1240px] mx-auto">
-      <h1 className="text-2xl font-bold text-center p-4"></h1>
-      <div className="relative flex justify-center p-4">
-        <div>
-          <FaArrowCircleLeft
-            onClick={prevSlide}
-            size={50}
-            className="absolute top-[50%] left-[30px] text-black/70 cursor-pointer select-none z-[2] "
-          />
-          {SliderData.map((slide, index) => {
-            return (
-              <div
-                key={index}
-                className={
-                  index === current
-                    ? "opacity-[1] ease-in duration-1000"
-                    : "opacity-0 "
-                }
-              >
-                {" "}
-                {index === current && (
-                  <Image
-                    width="1440"
-                    height="600"
-                    objectFit="cover"
-                    src={slide.image}
-                    alt="/"
-                    className="rounded-3xl"
-                  />
-                )}
-              </div>
-            );
-          })}{" "}
-          <FaArrowCircleRight
-            onClick={nextSlide}
-            size={50}
-            className="absolute top-[50%] right-[30px] text-black/70 cursor-pointer select-none z-[2]"
-          />
-        </div>
-      </div>
-    </div>
-  );
-};
+    <section id="slider">
+  <input type="radio" name="slider" id="s1" checked />
+  <input type="radio" name="slider" id="s2" />
+  <input type="radio" name="slider" id="s3" />
+  <input type="radio" name="slider" id="s4" />
+  <input type="radio" name="slider" id="s5" />
 
-export default Slider;
+  <label for="s1" id="slide1"><img src="https://i.pinimg.com/originals/2b/de/de/2bdede0647e3cdf75b44ea33723201d9.jpg" alt=""/></label>
+  <label for="s2" id="slide2"><img src="https://images6.alphacoders.com/462/thumb-1920-462371.jpg" alt="" /></label>
+  <label for="s3" id="slide3"><img src="https://wallpaperaccess.com/full/1154341.jpg" alt=""/></label>
+  <label for="s4" id="slide4"><img src="https://wallpapercave.com/wp/wp2634222.jpg" alt=""/></label>
+  <label for="s5" id="slide5"><img src="https://images5.alphacoders.com/343/thumb-1920-343645.jpg" alt=""/></label>
+</section>
+  )
+}
+
+export default Slider

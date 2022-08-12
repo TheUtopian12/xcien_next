@@ -16,12 +16,38 @@ const Administrados = () => {
   const [slide, setSlide] = useState(1);
   return (
     <>
-      <div className="h-32 bg-fixed bg-cover custom-img7 flex justify-center items-center align-middle ">
-        <Navbar />
+    <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
+        <div
+          className="absolute top-0 w-full h-full bg-center bg-cover"
+          style={{
+            backgroundImage:
+              "url('https://images.unsplash.com/photo-1606606767399-01e271823a2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')",
+          }}
+        >
+          <span
+            id="blackOverlay"
+            className="w-full h-full absolute opacity-75 bg-black"
+          ></span>
+        </div>
+        <div className="container relative mx-auto pt-16">
+          <div className="items-center flex flex-wrap">
+            <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              <div className="pr-12">
+                <h1 className="text-white font-semibold text-5xl">
+                  Seguridad Administrada
+                </h1>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-16"
+          style={{ transform: "translateZ(0)" }}
+        >
+        
+        </div>
       </div>
-      <h1 className="text-black text-4xl text-center pt-5 font-bold">
-        Seguridad Administrada
-      </h1>
       <hr />
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 p-14 items-center">
         <div className=" p-6 m-4 h-fit bg-black rounded-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 backdrop-blur-sm ">

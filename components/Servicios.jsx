@@ -33,6 +33,20 @@ const info = [
     description: "Logra una comunicacion efectiva sobre internet en tu negocio",
     url: "/TelefoniaIP",
   },
+  {
+    id: 5,
+    imagen:'https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+    title: "Telefonía IP",
+    description: "Logra una comunicacion efectiva sobre internet en tu negocio",
+    url: "/TelefoniaIP",
+  },
+  {
+    id: 6,
+    imagen:'https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+    title: "Telefonía IP",
+    description: "Logra una comunicacion efectiva sobre internet en tu negocio",
+    url: "/TelefoniaIP",
+  },
 ];
 const Servicios = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
@@ -67,7 +81,7 @@ const Servicios = () => {
         <h1 className="flex items-center justify-center text-6xl mb-28 pt-24 text-white font-semibold">
           Servicios
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-8 p-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8 p-4">
           {" "}
           {info.map((datos) => (
             <div className="p-4  rounded-md flex items-center justify-center" key={datos.id}>

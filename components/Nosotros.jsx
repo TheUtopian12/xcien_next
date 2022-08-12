@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   AiFillFacebook,
   AiOutlineInstagram,
   AiOutlineLinkedin,
 } from "react-icons/ai";
+import ModalMap from "./ModalMap";
 const Nosotros = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <div className=" bg-white" id="nosotros">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-0 ">
@@ -25,7 +28,11 @@ const Nosotros = () => {
               <AiOutlineLinkedin />
               <span className="ml-4">linkedin.com/company/xcien</span>
             </p>
+            <ModalMap setOpen={setOpen} open={open} />
+
+            <div className="flex items-center justify-center">   <button onClick={() => setOpen(!open)} className="font-bold text-lg">Abrir mapa</button>
           </div>
+         </div>
         </div>
         <div className=" bg-white rounded-md grid-cols-1 justify-center m-10">
           <p className="text-black text-4xl font-bold text-center pt-28">
