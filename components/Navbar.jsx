@@ -41,7 +41,7 @@ const Navbar = ({ colores }) => {
 
   return (
     <div
-      style={{ backgroundColor: `${color}` , fontSize:'16px'}}
+      style={{ backgroundColor: `${color}`, fontSize: "16px" }}
       className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
@@ -51,37 +51,62 @@ const Navbar = ({ colores }) => {
           </h1>
         </Link>
 
-        <ul style={{ color: `${textColor}`, fontSize:'16px' }} className="hidden sm:flex">
+        <ul
+          style={{ color: `${textColor}`, fontSize: "16px" }}
+          className="hidden sm:flex"
+        >
           <li className="p-4">
             <Link href="/">Inicio</Link>
           </li>
           <li className="p-1">
             <Menu>
               <MenuHandler>
-                <Button variant="text" size="lg" color="grey" style={{ color: `${textColor}`, fontWeight:'normal', textTransform:'capitalize', fontSize:'16px' }}>Servicios</Button>
+                <Button
+                  variant="text"
+                  size="lg"
+                  color="grey"
+                  style={{
+                    color: `${textColor}`,
+                    fontWeight: "normal",
+                    textTransform: "capitalize",
+                    fontSize: "16px",
+                  }}
+                >
+                  Servicios
+                </Button>
               </MenuHandler>
               <MenuList>
-                <Link href="/ServiciosInternet"><MenuItem>Internet</MenuItem></Link>
-                <Link href="/#"><MenuItem>SDWAN</MenuItem></Link>
-                <Link href="/TelefoniaIP"><MenuItem>Telefonia IP</MenuItem></Link>
-               
-              <Link href='/Administrados'><MenuItem>Seguridad Administrada</MenuItem></Link>  
-                 <Link href="/VPN"><MenuItem>VPN</MenuItem></Link>
-                <Link href="/DataCenter"><MenuItem>Data Center</MenuItem></Link>
-                
-                <Link href="/StrongInternet"><MenuItem>Strong Internet</MenuItem></Link>
+                <Link href="/ServiciosInternet">
+                  <MenuItem>Internet</MenuItem>
+                </Link>
+                <Link href="/#">
+                  <MenuItem>SDWAN</MenuItem>
+                </Link>
+                <Link href="/TelefoniaIP">
+                  <MenuItem>Telefonia IP</MenuItem>
+                </Link>
+
+                <Link href="/Administrados">
+                  <MenuItem>Seguridad Administrada</MenuItem>
+                </Link>
+                <Link href="/VPN">
+                  <MenuItem>VPN</MenuItem>
+                </Link>
+                <Link href="/DataCenter">
+                  <MenuItem>Data Center</MenuItem>
+                </Link>
+
+                <Link href="/StrongInternet">
+                  <MenuItem>Strong Internet</MenuItem>
+                </Link>
               </MenuList>
             </Menu>
-            //INTERNETN, SDWAN, TELEFONIA,
-//ADMINISTRADOS VPN  DATA CENTER
-
-
           </li>
           <li className="p-4">
             <Link href="/#nosotros">Nosotros</Link>
           </li>
           <li className="p-4">
-          <Link href="/#">Contacto</Link>
+            <Link href="/#">Contacto</Link>
           </li>
           <li className="p-3.5" style={{ cursor: "pointer" }}>
             <Link href="https://odoo.wispi.mx/my/home" target="_parent">
@@ -105,7 +130,7 @@ const Navbar = ({ colores }) => {
         </ul>
 
         {/* Mobile Button */}
-        <div onClick={handleNav} className='block sm:hidden z-10'>
+        <div onClick={handleNav} className="block sm:hidden z-10">
           {nav ? (
             <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
           ) : (
@@ -116,25 +141,24 @@ const Navbar = ({ colores }) => {
         <div
           className={
             nav
-              ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
-              : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
+              ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
+              : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
           }
         >
           <ul>
-            <li onClick={handleNav} className='p-4 text-xl hover:text-gray-500'>
-              <Link href='/'>Principal</Link>
+            <li onClick={handleNav} className="p-4 text-xl hover:text-gray-500">
+              <Link href="/">Principal</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-xl hover:text-gray-500'>
-            <Link href="/#servicios">Servicios</Link>
+            <li onClick={handleNav} className="p-4 text-xl hover:text-gray-500">
+              <Link href="/#servicios">Servicios</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-xl hover:text-gray-500'>
-            <Link href="/#nosotros">Nosotros</Link>
+            <li onClick={handleNav} className="p-4 text-xl hover:text-gray-500">
+              <Link href="/#nosotros">Nosotros</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-xl hover:text-gray-500'>
-            Contacto
+            <li onClick={handleNav} className="p-4 text-xl hover:text-gray-500">
+              Contacto
             </li>
           </ul>
-
         </div>
       </div>
     </div>
