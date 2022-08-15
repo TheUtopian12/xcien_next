@@ -62,15 +62,18 @@ const Navbar = ({ colores }) => {
               </MenuHandler>
               <MenuList>
                 <Link href="/ServiciosInternet"><MenuItem>Internet</MenuItem></Link>
-                <Link href="/VPN"><MenuItem>VPN</MenuItem></Link>
-              <Link href='/Administrados'><MenuItem>Seguridad Administrada</MenuItem></Link>  
-                <Link href="/TelefoniaIP"><MenuItem>Telefonia IP</MenuItem></Link>
-                <Link href="/DataCenter"><MenuItem>Data Center</MenuItem></Link>
                 <Link href="/#"><MenuItem>SDWAN</MenuItem></Link>
+                <Link href="/TelefoniaIP"><MenuItem>Telefonia IP</MenuItem></Link>
+               
+              <Link href='/Administrados'><MenuItem>Seguridad Administrada</MenuItem></Link>  
+                 <Link href="/VPN"><MenuItem>VPN</MenuItem></Link>
+                <Link href="/DataCenter"><MenuItem>Data Center</MenuItem></Link>
+                
                 <Link href="/StrongInternet"><MenuItem>Strong Internet</MenuItem></Link>
               </MenuList>
             </Menu>
-
+            //INTERNETN, SDWAN, TELEFONIA,
+//ADMINISTRADOS VPN  DATA CENTER
 
 
           </li>

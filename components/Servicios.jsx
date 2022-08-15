@@ -55,8 +55,7 @@ const info = [
   },
 ];
 
-//INTERNETN, SDWAN, TELEFONIA,
-//ADMINISTRADOS VPN  DATA CENTER
+
 
 //
 const Servicios = () => {
